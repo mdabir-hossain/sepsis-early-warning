@@ -1,0 +1,56 @@
+# Raw clinical data and local dataset copies
+training/
+data/raw/
+data/interim/
+data/processed/
+*.psv
+
+# Generated feature tables and intermediate data artifacts
+features_windowed_6h_12h_24h.csv
+*.parquet
+
+# Large/intermediate result folders
+results/
+figures/
+*.csv
+!reports/metrics/*.csv
+!data/sample/*.csv
+
+# Model artifacts
+models/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.h5
+*.sav
+
+# Notebook and runtime caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build, packaging, and coverage outputs
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
