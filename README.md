@@ -72,7 +72,7 @@ These metrics are retrospective development artifact metrics and should not be i
 Source: `results/model_metrics_cv.json`
 
 | Model | AUROC mean | AUROC std | AUPRC mean | AUPRC std |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Logistic Regression | 0.8767 | 0.0827 | 0.1400 | 0.0900 |
 | HistGradientBoosting | 0.9405 | 0.0276 | 0.1786 | 0.0847 |
 
@@ -81,7 +81,7 @@ Source: `results/model_metrics_cv.json`
 Source: `results/calibration_report.json`
 
 | Calibration | Brier | ECE@10 |
-|---|---:|---:|
+| --- | ---: | ---: |
 | Uncalibrated | 0.0196 | 0.0202 |
 | Platt | 0.0134 | 0.0050 |
 | Isotonic | 0.0133 | 0.0008 |
@@ -93,7 +93,7 @@ The saved artifact marks isotonic calibration as the selected calibrator for the
 Source: `results/final_decision.json` and `results/final_operating_point.csv`
 
 | Field | Saved value |
-|---|---:|
+| --- | ---: |
 | Model | `hgb` |
 | Calibrator | `isotonic` |
 | Policy | `A_first_crossing_lockout` |
