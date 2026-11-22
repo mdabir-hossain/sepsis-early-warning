@@ -1,5 +1,7 @@
 # Sepsis Early-Warning ML
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 A reproducible sepsis early-warning ML portfolio project using patient time-series data, patient-grouped validation, calibrated risk estimates, and alert-policy analysis to study detection, lead time, and alarm burden.
 
 This repository is a research-style and portfolio-grade machine learning project. It is not a clinical product, diagnostic system, medical device, or deployment-ready hospital tool.
